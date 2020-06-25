@@ -1,0 +1,14 @@
+@font-face {
+    font-family: AtariClassic;
+    src: url('fonts/atari-classic-font/AtariClassic-gry3.ttf');
+}
+
+@font-face {
+    font-family: PerfectDark;
+    src: url('fonts/perfect-dark-brk/pdark.ttf');
+}
+
+@font-face {
+    font-family: PixelColeco;
+    src: url('fonts/pixel-coleco-font/PixelColeco-4vJW.ttf');
+}

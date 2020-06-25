@@ -2,13 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Console Games</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="scripts/p5js/p5.js"></script>
+    <script src="scripts/p5js/addons/p5.dom.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/game-objects/tank.js"></script>
+    <script src="scripts/game-objects/bullet.js"></script>
+    <script src="scripts/tank-fight.js"></script>
 
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link type="text/css" rel="stylesheet" href="css/fonts.css">
@@ -18,19 +23,9 @@
 <body>
     <header>
         <a href="index.html" id="website-name">CONSOLE GAMES</a>
-        <div id="div-overlay" class="overlay">CONSOLE GAMES</div>
+        <div id="div-overlay">CONSOLE GAMES</div>
     </header>
-    <main id="main">
-        <ul>
-            <li>
-                <a href="tank-fight.html">TANK FIGHT</a>
-            </li>
-            <li>
-                <a href="tank-race-01.html">TANK RACE - I</a>
-            </li>
-        </ul>
-    </main>
-    <footer>abdulrehmankhan27061998@gmail.com</footer>
+    <main id="main"></main>
 </body>
 
 </html>
